@@ -1,0 +1,473 @@
+/usr/local/lib/python2.7/dist-packages/theano/scan_module/scan_perform_ext.py:133: RuntimeWarning: numpy.ndarray size changed, may indicate binary incompatibility
+  from scan_perform.scan_perform import *
+Entering main loop
+
+ Monitoring step
+ ***************
+ ----------------
+ Traininig basics
+ ................
+ Elapsed time: 0.000000
+ Epochs  seen: 0
+ Batches seen: 0
+ -----------------------
+ Optimization parameters
+ .......................
+ Learning rate: 0.000300
+ Beta_1: 0.900000
+ Beta_2: 0.999000
+ ------------------
+ Forward-prop based
+ ..................
+ initial_monitoring
+ train_nll_upper_bound: 286.678680
+ train_recon_term: 285.575745
+ train_kl_term: 1.102912
+ train_max_phi_sig: 1.250363
+ train_mean_phi_sig: 1.038283
+ train_min_phi_sig: 0.789046
+ train_max_prior_sig: 1.110433
+ train_mean_prior_sig: 1.040449
+ train_min_prior_sig: 0.965888
+ train_max_theta_sig: 1.324094
+ train_mean_theta_sig: 1.039952
+ train_min_theta_sig: 0.814349
+ train_max_x: 4.627986
+ train_mean_x: 0.000504
+ train_min_x: -4.640313
+ train_max_theta_mu: 0.441542
+ train_mean_theta_mu: 0.009732
+ train_min_theta_mu: -0.379856
+ valid_nll_upper_bound: 286.773132
+ valid_recon_term: 285.669006
+ valid_kl_term: 1.104116
+ valid_max_phi_sig: 1.258406
+ valid_mean_phi_sig: 1.038280
+ valid_min_phi_sig: 0.782520
+ valid_max_prior_sig: 1.112466
+ valid_mean_prior_sig: 1.040484
+ valid_min_prior_sig: 0.966442
+ valid_max_theta_sig: 1.317947
+ valid_mean_theta_sig: 1.039965
+ valid_min_theta_sig: 0.808440
+ valid_max_x: 4.606854
+ valid_mean_x: 0.001209
+ valid_min_x: -4.505362
+ valid_max_theta_mu: 0.419707
+ valid_mean_theta_mu: 0.009792
+ valid_min_theta_mu: -0.386776
+ Elapsed time for monitoring: 28.322896
+ Saving model to: /home/dcabrera/Dropbox/Seville/LearningTS/nips2015/blizzard/vrnn_gauss_1.pkl
+
+ Monitoring step
+ ***************
+ ----------------
+ Traininig basics
+ ................
+ Elapsed time: 321.188959
+ Epochs  seen: 1
+ Batches seen: 10
+ -----------------------
+ Optimization parameters
+ .......................
+ Learning rate: 0.000300
+ Beta_1: 0.900000
+ Beta_2: 0.999000
+ ------------------
+ Forward-prop based
+ ..................
+ this_batch_nll_upper_bound: 284.304443
+ train_nll_upper_bound: 283.848785
+ train_recon_term: 283.839447
+ train_kl_term: 0.009352
+ train_max_phi_sig: 1.057737
+ train_mean_phi_sig: 1.037587
+ train_min_phi_sig: 1.014426
+ train_max_prior_sig: 1.053259
+ train_mean_prior_sig: 1.037635
+ train_min_prior_sig: 1.024300
+ train_max_theta_sig: 1.078671
+ train_mean_theta_sig: 1.023166
+ train_min_theta_sig: 0.968373
+ train_max_x: 4.627986
+ train_mean_x: 0.000504
+ train_min_x: -4.640313
+ train_max_theta_mu: 0.077093
+ train_mean_theta_mu: 0.001368
+ train_min_theta_mu: -0.082971
+ valid_nll_upper_bound: 283.988892
+ valid_recon_term: 283.979492
+ valid_kl_term: 0.009406
+ valid_max_phi_sig: 1.057824
+ valid_mean_phi_sig: 1.037593
+ valid_min_phi_sig: 1.014929
+ valid_max_prior_sig: 1.053366
+ valid_mean_prior_sig: 1.037636
+ valid_min_prior_sig: 1.024424
+ valid_max_theta_sig: 1.077631
+ valid_mean_theta_sig: 1.023153
+ valid_min_theta_sig: 0.966104
+ valid_max_x: 4.606854
+ valid_mean_x: 0.001209
+ valid_min_x: -4.505362
+ valid_max_theta_mu: 0.074920
+ valid_mean_theta_mu: 0.001374
+ valid_min_theta_mu: -0.082358
+ Elapsed time for monitoring: 27.761703
+ Saving model to: /home/dcabrera/Dropbox/Seville/LearningTS/nips2015/blizzard/vrnn_gauss_1.pkl
+ Saving best model to: /home/dcabrera/Dropbox/Seville/LearningTS/nips2015/blizzard/vrnn_gauss_1_best.pkl
+ Saving best model to: /home/dcabrera/Dropbox/Seville/LearningTS/nips2015/blizzard/vrnn_gauss_1_best_before_20updates.pkl
+
+ Monitoring step
+ ***************
+ ----------------
+ Traininig basics
+ ................
+ Elapsed time: 319.613326
+ Epochs  seen: 2
+ Batches seen: 20
+ -----------------------
+ Optimization parameters
+ .......................
+ Learning rate: 0.000300
+ Beta_1: 0.900000
+ Beta_2: 0.999000
+ ------------------
+ Forward-prop based
+ ..................
+ this_batch_nll_upper_bound: 283.798645
+ train_nll_upper_bound: 283.738434
+ train_recon_term: 283.735779
+ train_kl_term: 0.002634
+ train_max_phi_sig: 1.048646
+ train_mean_phi_sig: 1.037500
+ train_min_phi_sig: 1.027291
+ train_max_prior_sig: 1.043830
+ train_mean_prior_sig: 1.037529
+ train_min_prior_sig: 1.030938
+ train_max_theta_sig: 1.071829
+ train_mean_theta_sig: 1.006024
+ train_min_theta_sig: 0.949218
+ train_max_x: 4.627986
+ train_mean_x: 0.000504
+ train_min_x: -4.640313
+ train_max_theta_mu: 0.078830
+ train_mean_theta_mu: 0.001168
+ train_min_theta_mu: -0.074969
+ valid_nll_upper_bound: 283.899170
+ valid_recon_term: 283.896515
+ valid_kl_term: 0.002648
+ valid_max_phi_sig: 1.048246
+ valid_mean_phi_sig: 1.037503
+ valid_min_phi_sig: 1.026336
+ valid_max_prior_sig: 1.043899
+ valid_mean_prior_sig: 1.037533
+ valid_min_prior_sig: 1.031174
+ valid_max_theta_sig: 1.071131
+ valid_mean_theta_sig: 1.006020
+ valid_min_theta_sig: 0.948172
+ valid_max_x: 4.606854
+ valid_mean_x: 0.001209
+ valid_min_x: -4.505362
+ valid_max_theta_mu: 0.079061
+ valid_mean_theta_mu: 0.001159
+ valid_min_theta_mu: -0.080682
+ Elapsed time for monitoring: 27.915027
+ Saving model to: /home/dcabrera/Dropbox/Seville/LearningTS/nips2015/blizzard/vrnn_gauss_1.pkl
+ Saving model to: /home/dcabrera/Dropbox/Seville/LearningTS/nips2015/blizzard/vrnn_gauss_1_20updates.pkl
+ Saving best model to: /home/dcabrera/Dropbox/Seville/LearningTS/nips2015/blizzard/vrnn_gauss_1_best.pkl
+ Saving best model to: /home/dcabrera/Dropbox/Seville/LearningTS/nips2015/blizzard/vrnn_gauss_1_best_before_40updates.pkl
+
+ Monitoring step
+ ***************
+ ----------------
+ Traininig basics
+ ................
+ Elapsed time: 320.970885
+ Epochs  seen: 3
+ Batches seen: 30
+ -----------------------
+ Optimization parameters
+ .......................
+ Learning rate: 0.000300
+ Beta_1: 0.900000
+ Beta_2: 0.999000
+ ------------------
+ Forward-prop based
+ ..................
+ this_batch_nll_upper_bound: 283.726135
+ train_nll_upper_bound: 283.701599
+ train_recon_term: 283.700439
+ train_kl_term: 0.001185
+ train_max_phi_sig: 1.045054
+ train_mean_phi_sig: 1.037500
+ train_min_phi_sig: 1.030383
+ train_max_prior_sig: 1.041909
+ train_mean_prior_sig: 1.037468
+ train_min_prior_sig: 1.032759
+ train_max_theta_sig: 1.042376
+ train_mean_theta_sig: 1.001787
+ train_min_theta_sig: 0.955582
+ train_max_x: 4.627986
+ train_mean_x: 0.000504
+ train_min_x: -4.640313
+ train_max_theta_mu: 0.060356
+ train_mean_theta_mu: 0.000550
+ train_min_theta_mu: -0.058320
+ valid_nll_upper_bound: 283.861267
+ valid_recon_term: 283.860107
+ valid_kl_term: 0.001190
+ valid_max_phi_sig: 1.045306
+ valid_mean_phi_sig: 1.037502
+ valid_min_phi_sig: 1.029964
+ valid_max_prior_sig: 1.042035
+ valid_mean_prior_sig: 1.037468
+ valid_min_prior_sig: 1.032649
+ valid_max_theta_sig: 1.042138
+ valid_mean_theta_sig: 1.001840
+ valid_min_theta_sig: 0.956755
+ valid_max_x: 4.606854
+ valid_mean_x: 0.001209
+ valid_min_x: -4.505362
+ valid_max_theta_mu: 0.059882
+ valid_mean_theta_mu: 0.000555
+ valid_min_theta_mu: -0.059473
+ Elapsed time for monitoring: 27.975617
+ Saving model to: /home/dcabrera/Dropbox/Seville/LearningTS/nips2015/blizzard/vrnn_gauss_1.pkl
+ Saving best model to: /home/dcabrera/Dropbox/Seville/LearningTS/nips2015/blizzard/vrnn_gauss_1_best.pkl
+ Saving best model to: /home/dcabrera/Dropbox/Seville/LearningTS/nips2015/blizzard/vrnn_gauss_1_best_before_40updates.pkl
+
+ Monitoring step
+ ***************
+ ----------------
+ Traininig basics
+ ................
+ Elapsed time: 320.119294
+ Epochs  seen: 4
+ Batches seen: 40
+ -----------------------
+ Optimization parameters
+ .......................
+ Learning rate: 0.000300
+ Beta_1: 0.900000
+ Beta_2: 0.999000
+ ------------------
+ Forward-prop based
+ ..................
+ this_batch_nll_upper_bound: 283.698486
+ train_nll_upper_bound: 283.686676
+ train_recon_term: 283.686096
+ train_kl_term: 0.000608
+ train_max_phi_sig: 1.044019
+ train_mean_phi_sig: 1.037475
+ train_min_phi_sig: 1.031272
+ train_max_prior_sig: 1.040945
+ train_mean_prior_sig: 1.037468
+ train_min_prior_sig: 1.033900
+ train_max_theta_sig: 1.036679
+ train_mean_theta_sig: 1.000239
+ train_min_theta_sig: 0.961540
+ train_max_x: 4.627986
+ train_mean_x: 0.000504
+ train_min_x: -4.640313
+ train_max_theta_mu: 0.056165
+ train_mean_theta_mu: 0.000787
+ train_min_theta_mu: -0.054884
+ valid_nll_upper_bound: 283.850128
+ valid_recon_term: 283.849518
+ valid_kl_term: 0.000611
+ valid_max_phi_sig: 1.043656
+ valid_mean_phi_sig: 1.037476
+ valid_min_phi_sig: 1.030720
+ valid_max_prior_sig: 1.041203
+ valid_mean_prior_sig: 1.037468
+ valid_min_prior_sig: 1.033860
+ valid_max_theta_sig: 1.036691
+ valid_mean_theta_sig: 1.000261
+ valid_min_theta_sig: 0.962385
+ valid_max_x: 4.606854
+ valid_mean_x: 0.001209
+ valid_min_x: -4.505362
+ valid_max_theta_mu: 0.057491
+ valid_mean_theta_mu: 0.000802
+ valid_min_theta_mu: -0.053248
+ Elapsed time for monitoring: 28.078602
+ Saving model to: /home/dcabrera/Dropbox/Seville/LearningTS/nips2015/blizzard/vrnn_gauss_1.pkl
+ Saving model to: /home/dcabrera/Dropbox/Seville/LearningTS/nips2015/blizzard/vrnn_gauss_1_40updates.pkl
+ Saving best model to: /home/dcabrera/Dropbox/Seville/LearningTS/nips2015/blizzard/vrnn_gauss_1_best.pkl
+ Saving best model to: /home/dcabrera/Dropbox/Seville/LearningTS/nips2015/blizzard/vrnn_gauss_1_best_before_60updates.pkl
+
+ Monitoring step
+ ***************
+ ----------------
+ Traininig basics
+ ................
+ Elapsed time: 319.200599
+ Epochs  seen: 5
+ Batches seen: 50
+ -----------------------
+ Optimization parameters
+ .......................
+ Learning rate: 0.000300
+ Beta_1: 0.900000
+ Beta_2: 0.999000
+ ------------------
+ Forward-prop based
+ ..................
+ this_batch_nll_upper_bound: 283.689880
+ train_nll_upper_bound: 283.678650
+ train_recon_term: 283.678314
+ train_kl_term: 0.000372
+ train_max_phi_sig: 1.042891
+ train_mean_phi_sig: 1.037445
+ train_min_phi_sig: 1.032342
+ train_max_prior_sig: 1.040432
+ train_mean_prior_sig: 1.037487
+ train_min_prior_sig: 1.034714
+ train_max_theta_sig: 1.033882
+ train_mean_theta_sig: 0.999772
+ train_min_theta_sig: 0.961556
+ train_max_x: 4.627986
+ train_mean_x: 0.000504
+ train_min_x: -4.640313
+ train_max_theta_mu: 0.061304
+ train_mean_theta_mu: 0.000539
+ train_min_theta_mu: -0.047057
+ valid_nll_upper_bound: 283.853424
+ valid_recon_term: 283.853027
+ valid_kl_term: 0.000375
+ valid_max_phi_sig: 1.042989
+ valid_mean_phi_sig: 1.037446
+ valid_min_phi_sig: 1.032120
+ valid_max_prior_sig: 1.040461
+ valid_mean_prior_sig: 1.037488
+ valid_min_prior_sig: 1.034741
+ valid_max_theta_sig: 1.033824
+ valid_mean_theta_sig: 0.999781
+ valid_min_theta_sig: 0.962059
+ valid_max_x: 4.606854
+ valid_mean_x: 0.001209
+ valid_min_x: -4.505362
+ valid_max_theta_mu: 0.061740
+ valid_mean_theta_mu: 0.000551
+ valid_min_theta_mu: -0.046829
+ Elapsed time for monitoring: 27.739274
+ Saving model to: /home/dcabrera/Dropbox/Seville/LearningTS/nips2015/blizzard/vrnn_gauss_1.pkl
+
+ Monitoring step
+ ***************
+ ----------------
+ Traininig basics
+ ................
+ Elapsed time: 318.826313
+ Epochs  seen: 6
+ Batches seen: 60
+ -----------------------
+ Optimization parameters
+ .......................
+ Learning rate: 0.000300
+ Beta_1: 0.900000
+ Beta_2: 0.999000
+ ------------------
+ Forward-prop based
+ ..................
+ this_batch_nll_upper_bound: 283.679810
+ train_nll_upper_bound: 283.671356
+ train_recon_term: 283.671112
+ train_kl_term: 0.000270
+ train_max_phi_sig: 1.042579
+ train_mean_phi_sig: 1.037437
+ train_min_phi_sig: 1.032580
+ train_max_prior_sig: 1.040335
+ train_mean_prior_sig: 1.037486
+ train_min_prior_sig: 1.034803
+ train_max_theta_sig: 1.034626
+ train_mean_theta_sig: 0.999825
+ train_min_theta_sig: 0.961670
+ train_max_x: 4.627986
+ train_mean_x: 0.000504
+ train_min_x: -4.640313
+ train_max_theta_mu: 0.052655
+ train_mean_theta_mu: 0.000452
+ train_min_theta_mu: -0.047470
+ valid_nll_upper_bound: 283.845856
+ valid_recon_term: 283.845520
+ valid_kl_term: 0.000274
+ valid_max_phi_sig: 1.042632
+ valid_mean_phi_sig: 1.037438
+ valid_min_phi_sig: 1.032380
+ valid_max_prior_sig: 1.040436
+ valid_mean_prior_sig: 1.037486
+ valid_min_prior_sig: 1.034868
+ valid_max_theta_sig: 1.035970
+ valid_mean_theta_sig: 0.999787
+ valid_min_theta_sig: 0.963249
+ valid_max_x: 4.606854
+ valid_mean_x: 0.001209
+ valid_min_x: -4.505362
+ valid_max_theta_mu: 0.052429
+ valid_mean_theta_mu: 0.000456
+ valid_min_theta_mu: -0.045718
+ Elapsed time for monitoring: 27.712393
+ Saving model to: /home/dcabrera/Dropbox/Seville/LearningTS/nips2015/blizzard/vrnn_gauss_1.pkl
+ Saving model to: /home/dcabrera/Dropbox/Seville/LearningTS/nips2015/blizzard/vrnn_gauss_1_60updates.pkl
+ Saving best model to: /home/dcabrera/Dropbox/Seville/LearningTS/nips2015/blizzard/vrnn_gauss_1_best.pkl
+ Saving best model to: /home/dcabrera/Dropbox/Seville/LearningTS/nips2015/blizzard/vrnn_gauss_1_best_before_80updates.pkl
+
+ Monitoring step
+ ***************
+ ----------------
+ Traininig basics
+ ................
+ Elapsed time: 318.979230
+ Epochs  seen: 7
+ Batches seen: 70
+ -----------------------
+ Optimization parameters
+ .......................
+ Learning rate: 0.000300
+ Beta_1: 0.900000
+ Beta_2: 0.999000
+ ------------------
+ Forward-prop based
+ ..................
+ this_batch_nll_upper_bound: 283.674713
+ train_nll_upper_bound: 283.664978
+ train_recon_term: 283.664764
+ train_kl_term: 0.000211
+ train_max_phi_sig: 1.042048
+ train_mean_phi_sig: 1.037433
+ train_min_phi_sig: 1.032915
+ train_max_prior_sig: 1.040371
+ train_mean_prior_sig: 1.037459
+ train_min_prior_sig: 1.034937
+ train_max_theta_sig: 1.034190
+ train_mean_theta_sig: 0.999315
+ train_min_theta_sig: 0.963310
+ train_max_x: 4.627986
+ train_mean_x: 0.000504
+ train_min_x: -4.640313
+ train_max_theta_mu: 0.056227
+ train_mean_theta_mu: 0.000486
+ train_min_theta_mu: -0.048876
+ valid_nll_upper_bound: 283.849609
+ valid_recon_term: 283.849396
+ valid_kl_term: 0.000214
+ valid_max_phi_sig: 1.041991
+ valid_mean_phi_sig: 1.037434
+ valid_min_phi_sig: 1.032900
+ valid_max_prior_sig: 1.040445
+ valid_mean_prior_sig: 1.037459
+ valid_min_prior_sig: 1.034855
+ valid_max_theta_sig: 1.034345
+ valid_mean_theta_sig: 0.999337
+ valid_min_theta_sig: 0.961935
+ valid_max_x: 4.606854
+ valid_mean_x: 0.001209
+ valid_min_x: -4.505362
+ valid_max_theta_mu: 0.053511
+ valid_mean_theta_mu: 0.000486
+ valid_min_theta_mu: -0.047942
+ Elapsed time for monitoring: 27.757808
+ Saving model to: /home/dcabrera/Dropbox/Seville/LearningTS/nips2015/blizzard/vrnn_gauss_1.pkl
+slurmd[mulhacen]: error: *** JOB 50 CANCELLED AT 2016-02-24T16:43:36 ***
