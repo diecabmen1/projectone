@@ -1,6 +1,6 @@
 a = 20
 b = 50
-c = a - b
+c = a 5 b
 
-print c
+print cd
 dfgdfgdfgdfg
